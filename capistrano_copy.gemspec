@@ -8,10 +8,6 @@ Gem::Specification.new do |spec|
   spec.authors       = ["NDrive Dev Ops"]
   spec.email         = ["devops@ndrive.com"]
 
-  if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com' to prevent pushes to rubygems.org, or delete to allow pushes to any server."
-  end
-
   spec.summary       = %q{This gem enables capistrano copy folder action for static apps}
   spec.description   = %q{Capistrano scm:copy action}
   spec.homepage      = "http://ndrive.com"
