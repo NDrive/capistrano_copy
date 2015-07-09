@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "capistrano_copy"
-  spec.version       = "1.0.0"
+  spec.version       = "1.0.1"
   spec.authors       = ["NDrive Dev Ops"]
   spec.email         = ["devops@ndrive.com"]
 
